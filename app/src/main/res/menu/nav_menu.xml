@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="เมนูหลัก">
+        <menu>
+            <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_messages"
+                    android:title="รายการเพลงทั้งหมด"/>
+            <item
+                    android:id="@+id/nav_add"
+                    android:icon="@drawable/ic_messages"
+                    android:title="เพิ่มข้อมูล"/>
+    <!--        <item-->
+    <!--                android:id="@+id/nav_friends"-->
+    <!--                android:icon="@drawable/ic_friends"-->
+    <!--                android:title="Friends"/>-->
+        </menu>
+    </item>
+
+
+    <item android:title="จัดการระบบ">
+        <menu>
+<!--            <item-->
+<!--                    android:id="@+id/nav_update"-->
+<!--                    android:icon="@drawable/ic_update"-->
+<!--                    android:title="Update Profile"/>-->
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_signout"
+                android:title="Login"/>
+            <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_signout"
+                    android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
